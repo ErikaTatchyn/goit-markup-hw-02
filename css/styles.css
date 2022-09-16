@@ -1,0 +1,165 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgc: #f5f5f5;
+  --secondary-bgc: #f5f4fa;
+  --accent-bgc: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(#f5f5f5);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+.logo-link {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.current {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.hero-section {
+  background-color: var(--accent-bgc);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bgc);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.filter-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.feature-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature-p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.departments-header {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--secondary-bgc);
+}
+
+.team-header {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-job {
+  line-height: 1.2;
+  text-align: center;
+}
+
+.portfolio-card-header {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-card-type {
+  color: var(--primary-text-color);
+  line-height: 1.2;
+}
+
+footer {
+  background-color: var(--accent-bgc);
+}
